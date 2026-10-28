@@ -19,7 +19,7 @@ from pydantic import Field
 from starlette.requests import Request
 from starlette.responses import PlainTextResponse
 
-SERVICE = "Korea Life Calc(한국 생활 법정 계산기)"
+SERVICE = "Korea Life Calc(한국 생활 법정 계산기) - Korea Life Calc"
 KST = timezone(timedelta(hours=9))
 
 mcp = FastMCP(
